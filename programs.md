@@ -2,7 +2,7 @@
 
 # Invited Speakers
 
-* [Allison Gopnik](http://alisongopnik.com/), Berkeley 
+* [Alison Gopnik](http://alisongopnik.com/), Berkeley 
 * [Felix Hill](https://fh295.github.io/), DeepMind 
 * [Yoav Artzi](https://yoavartzi.com/), Cornell 
 * [Marc-Alexandre Côté](https://www.microsoft.com/en-us/research/people/macote/), Microsoft Research 
