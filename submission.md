@@ -1,8 +1,9 @@
 # Call for Papers
 
 We welcome submissions on the following and related topics: 
+
 * Instruction Following  
-* Language as Side-information in RL  
+* Language as External Knowledge Source in RL  
 * Language as Representation in RL  
 * RL with Natural Language State and Action Space 
 * Embodied and Interactive Question Answering  
