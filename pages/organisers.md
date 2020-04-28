@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Organisation Committee
+title: Organising Committee
 permalink: /organisers/
 ---
 
-# Organisation Committee
+# Organising Committee
 
 
 <div class="row">
