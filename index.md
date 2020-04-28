@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 ---
 
-# **Language in Reinforcement Learning (LaReL)**
+# **Language in Reinforcement Learning**
 
 ### ICML 2020 Workshop, 17 or 18 July 2020
 
