@@ -6,6 +6,11 @@ permalink: /submission/
 
 # Call for Papers
 
+<figure class="figure">
+  <img src="/assets/img/humanreading.jpg" class="figure-img img-fluid rounded" alt="Human reading.">
+</figure>
+
+
 We welcome submissions on the following and related topics: 
 
 * Instruction Following  

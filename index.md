@@ -8,6 +8,9 @@ layout: page
 
 ### _The workshop will take place virtually due to COVID-19 pandemic._ 
 
+<figure class="figure">
+  <img src="/assets/img/machinereading.jpg" class="figure-img img-fluid rounded" alt="Machine reading.">
+</figure>
 
 Language is one of the most impressive human accomplishments and is believed to be the core to our ability to learn, teach, reason and interact with others ([Gopnik and Meltzoff, 1987](http://ilabs.washington.edu/meltzoff/pdf/87Gopnik_Meltzoff_ChildDev.pdf); [Spelke and Kinzler, 2007](http://inst.cs.berkeley.edu/~cs182/sp08/readings/SpelkeKinzler07.pdf); [Shusterman et al., 2011](https://www.ncbi.nlm.nih.gov/pubmed/21665199)). It is hard to imagine teaching a child any complex task or skill without, at some point, relying on language to communicate. Written language has also given humans the ability to store information and insights about the world and pass it across generations and continents. Yet, current state-of-the-art reinforcement learning agents are unable to use or understand human language. 
 
