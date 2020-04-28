@@ -15,7 +15,7 @@ permalink: /organisers/
 {% include person.html name="Nantas Nardelli" url="http://www.robots.ox.ac.uk/~nantas" affiliation="University of Oxford" img="/assets/img/organizers/nantas.jpg" %}
 
 
-{% include person.html name="Jakob Foerser" url="https://sites.google.com/view/jakob-foerster/home" affiliation="University of Toronto / FAIR" img="/assets/img/organizers/jakob.jpg" %}
+{% include person.html name="Jakob Foerster" url="https://sites.google.com/view/jakob-foerster/home" affiliation="University of Toronto / FAIR" img="/assets/img/organizers/jakob.jpg" %}
 
 
 {% include person.html name="Victor Zhong" url="http://www.victorzhong.com" affiliation="University of Washington" img="/assets/img/organizers/victor.jpg" %}
