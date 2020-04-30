@@ -41,7 +41,7 @@ All deadlines are specified in [AoE](https://www.timeanddate.com/time/zones/aoe)
 
 ## Submission Instructions
 
-Submissions can be made at OpenReview.
+Submissions can be made at [OpenReview](https://openreview.net/group?id=ICML.cc/2020/Workshop/LaReL).
 
 The submissions should be anonymised 4-page papers (excluding references and supplementary materials), in a form of a single pdf created using [ICML 2020 style](https://media.icml.cc/Conferences/ICML2020/Styles/icml2020_style.zip) and following [author instructions](https://icml.cc/Conferences/2020/StyleAuthorInstructions) where applicable. Note that you will need to have a registered account with OpenReview. The reviews will be double-blind, with at least two reviewers assigned to each paper. 
 

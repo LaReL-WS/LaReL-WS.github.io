@@ -12,6 +12,11 @@ favicon: # assets/favicon.ico                             # Icon displayed in th
 header_text: The 1st Language in Reinforcement Learning Workshop 2020 at ICML 2020
 footer_text: Copyright 2020
 
+# External links
+external:
+  # - title: OpenReview
+  #   url: https://openreview.net/group?id=ICML.cc/2020/Workshop/LaReL
+
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
 post_navigation: true

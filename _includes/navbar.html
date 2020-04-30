@@ -37,6 +37,15 @@
             {% endunless %}
             {% assign name_page = page.title | append: name_page %}
         {% endfor %}
+
+        {% for ext in site.external %}
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="{{ ext.title }}" title="{{ ext.title }}" href="{{ ext.url }}">
+                  {{ ext.title }}
+                </a>
+            </li>
+        {% endfor %}
     </ul>
 
 	</nav>
