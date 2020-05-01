@@ -6,7 +6,7 @@ permalink: /submission/
 
 # Call for Papers
 
-<figure class="figure">
+<figure class="figure mw-50">
   <img src="/assets/img/humanreading.jpg" class="figure-img img-fluid rounded" alt="Human reading.">
 </figure>
 

@@ -8,7 +8,7 @@ layout: page
 
 ### _The workshop will take place virtually due to COVID-19 pandemic._ 
 
-<figure class="figure">
+<figure class="figure mw-50 text-center">
   <img src="/assets/img/machinereading.jpg" class="figure-img img-fluid rounded" alt="Machine reading.">
 </figure>
 
