@@ -34,7 +34,7 @@ We welcome submissions on the following and related topics:
 | **Submission Deadline**  |       11 June, 2020 |
 | Acceptance Notification  |       2  July, 2020 |
 | Camera-ready Deadline    |       15 July, 2020 |
-| Workshop Date            | 20 or 21 July, 2020 |
+| Workshop Date            |       18 July, 2020 |
 
 All deadlines are specified in [AoE](https://www.timeanddate.com/time/zones/aoe) (Anywhere on Earth). 
 

@@ -6,7 +6,8 @@ We have removed the blogging part of the theme to make it simpler to manage.
 To start changing the website:
 
 ```
-brew install bundler  # install bundler
+brew install ruby  # you might need to change your PATH to use this ruby, or you can do the following using your system ruby
+gem install bundler  # install bundler
 git clone git@github.com:LaReL-WS/LaReL-WS.github.io.git  # get code
 git checkout src  # get the development branch
 bundle install  # install dependencies

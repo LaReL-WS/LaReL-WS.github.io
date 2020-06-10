@@ -4,7 +4,7 @@ layout: page
 
 # **Language in Reinforcement Learning**
 
-### ICML 2020 Workshop, 17 or 18 July 2020
+### ICML 2020 Workshop, 18 July 2020
 
 ### _The workshop will take place virtually due to COVID-19 pandemic._ 
 

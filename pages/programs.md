@@ -23,7 +23,7 @@ permalink: /program/
 
 {% include person.html name="Karthik Narasimhan" url="https://www.cs.princeton.edu/~karthikn" affiliation="Princeton" img="/assets/img/speakers/karthik.jpg" %}
 
-{% include person.html name="Angeliki Lazariou" url="http://angelikilazaridou.github.io" affiliation="DeepMind" img="/assets/img/speakers/angeliki.jpg" %}
+{% include person.html name="Angeliki Lazaridou" url="http://angelikilazaridou.github.io" affiliation="DeepMind" img="/assets/img/speakers/angeliki.jpg" %}
 
 {% include person.html name="Arthur Szlam" url="https://scholar.google.com/citations?user=u3-FxUgAAAAJ&hl=en" affiliation="FAIR" img="/assets/img/speakers/arthur.jpeg" %}
 
