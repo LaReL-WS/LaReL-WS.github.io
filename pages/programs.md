@@ -32,7 +32,6 @@ permalink: /program/
 
 # Schedule (EST)
 
-| 10:00am | 10:10am | Welcome remarks |
 | 10:00am | 10:10am | Welcome Remarks |
 | 10:10am | 10:40am | Angeliki Lazaridou |
 | 10:40am | 11:10am | Arthur Szlam |
