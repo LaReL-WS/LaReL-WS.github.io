@@ -1,10 +1,21 @@
-<div class="card text-center" style="width: 18rem;">
-  <img src="{{include.img}}" class="card-img-top text-center" alt="{{include.name}}">
+<div class="card mb-3">
+  <!--
+  <div class="card-header">
+    <a href="{{include.url}}">{{include.speaker}}</a><span>, {{include.affiliation}}</span>
+  </div>
+  -->
   <div class="card-body">
     <p class="card-text">
-      <a href="{{include.url}}">{{include.name}}</a>
-      <br>
-      {{include.affiliation}}
+      <div class="row">
+        <div class="col text-center">
+          <img src="{{include.img}}" class="card-img-top" alt="{{include.speaker}}">
+    <a href="{{include.url}}">{{include.speaker}}</a><span>, {{include.affiliation}}</span>
+        </div>
+        <div class="col-8">
+          <h5>{{include.title}}</h5>
+          <p>{{include.abstract}}</p>
+        </div>
+      </div>
     </p>
   </div>
 </div>

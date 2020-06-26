@@ -1,0 +1,14 @@
+<tr>
+<td>{{include.start}} to {{include.end}}</td>
+<td>
+  {% if include.url %}
+    <a href="{{include.url}}">{{include.speaker}}</a>{{": "}}
+  {% else %}
+    {{include.speaker}}
+  {% endif %}
+  {% if include.title %}
+    {{include.title}}
+  {% endif %}
+
+</td>
+</tr>
