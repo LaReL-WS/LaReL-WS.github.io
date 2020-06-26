@@ -25,13 +25,7 @@
     <!-- RSS -->
     <link rel="alternate" type="application/atom+xml" title="LaReL 2020" href="https://larel-ws.github.io/feed.xml"/>
     
-    <!-- CSS only -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
 
     <!-- KaTeX 0.8.3 -->
     <!-- if you have any issue check https://github.com/KaTeX/KaTeX -->
@@ -147,365 +141,176 @@
   
 	<h1 id="program">Program</h1>
 
-<div class="container">
-<div class="card mb-3">
-  <!--
-  <div class="card-header">
-    <a href="http://angelikilazaridou.github.io">Angeliki Lazaridou</a><span>, DeepMind</span>
-  </div>
-  -->
+<h2 id="invited-speakers">Invited Speakers</h2>
+
+<div class="row">
+
+<div class="card text-center" style="width: 18rem;">
+  <img src="/assets/img/speakers/alison.jpg" class="card-img-top text-center" alt="Alison Gopnik" />
   <div class="card-body">
     <p class="card-text">
-      <div class="row">
-        <div class="col text-center">
-          <img src="/assets/img/speakers/angeliki.jpg" class="card-img-top" alt="Angeliki Lazaridou" />
-    <a href="http://angelikilazaridou.github.io">Angeliki Lazaridou</a><span>, DeepMind</span>
-        </div>
-        <div class="col-8">
-          <h5>Towards multi-agent emergent communication as a building block of human-centric AI</h5>
-          <p>The ability to cooperate through language is a defining feature of humans. As the perceptual, motory and planning capabilities of deep artificial networks increase, researchers are studying whether they also can develop a shared language to interact. In this talk, I will highlight recent advances in this field but also common headaches (or perhaps limitations) with respect to experimental setup and evaluation of emergent communication. Towards making multi-agent communication a building block of human-centric AI, and by drawing from my own recent work, I will discuss approaches on making emergent communication relevant for human-agent communication in natural language.</p>
-        </div>
-      </div>
+      <a href="http://alisongopnik.com">Alison Gopnik</a>
+      <br />
+      Berkeley
     </p>
   </div>
 </div>
 
 
-<div class="card mb-3">
-  <!--
-  <div class="card-header">
-    <a href="https://scholar.google.com/citations?user=u3-FxUgAAAAJ&hl=en">Arthur Szlam</a><span>, FAIR</span>
-  </div>
-  -->
+<div class="card text-center" style="width: 18rem;">
+  <img src="/assets/img/speakers/felix.jpeg" class="card-img-top text-center" alt="Felix Hill" />
   <div class="card-body">
     <p class="card-text">
-      <div class="row">
-        <div class="col text-center">
-          <img src="/assets/img/speakers/arthur.jpeg" class="card-img-top" alt="Arthur Szlam" />
-    <a href="https://scholar.google.com/citations?user=u3-FxUgAAAAJ&amp;hl=en">Arthur Szlam</a><span>, FAIR</span>
-        </div>
-        <div class="col-8">
-          <h5>Language and Interaction in Minecraft</h5>
-          <p>I will discuss our progress on a research program aimed at building a Minecraft assistant. I will cover the tools and platform we have built allowing players to interact with the agents and to record those interactions, and the data we have collected. I will also cover the design of our current agent, from which we (and hopefully others) can iterate.</p>
-        </div>
-      </div>
+      <a href="https://fh295.github.io">Felix Hill</a>
+      <br />
+      DeepMind
     </p>
   </div>
 </div>
 
 
-<div class="card mb-3">
-  <!--
-  <div class="card-header">
-    <a href="https://fh295.github.io">Felix Hill</a><span>, DeepMind</span>
-  </div>
-  -->
+<div class="card text-center" style="width: 18rem;">
+  <img src="/assets/img/speakers/yoav.jpg" class="card-img-top text-center" alt="Yoav Artzi" />
   <div class="card-body">
     <p class="card-text">
-      <div class="row">
-        <div class="col text-center">
-          <img src="/assets/img/speakers/felix.jpeg" class="card-img-top" alt="Felix Hill" />
-    <a href="https://fh295.github.io">Felix Hill</a><span>, DeepMind</span>
-        </div>
-        <div class="col-8">
-          <h5>Embodied Language Learning and the Power of Prediction</h5>
-          <p>Models like BERT or GPT-2 can do amazing things with language, and this raises the interesting question of whether such text-based models could ever really "understand" it. One clear difference between BERT-understanding and human understanding is that BERT doesn't learn to connect language to its actions or its perception of the world it inhabits. I'll discuss an alternative approach to language understanding in which a neural-network-based agent is trained to associate words and phrases with things that it learns to see and do. First, I'll provide some evidence for the promise of this approach by showing that the interactive, first-person perspective of an agent affords it with a particular inductive bias that helps it to extend its training experience to generalize to out-of-distribution settings in ways that seem natural or 'systematic'. Second, I'll show the amount of 'propositional' (i.e. linguistic) knowledge that emerges in the internal states of the agent as it interacts with the world can be increased significantly by it learning to make predictions about observations multiple timesteps into the future. This underlines some important common ground between the agent-based and BERT-style approaches: both attest to the power of prediction and the importance of context in acquiring semantic representations. Finally, I'll connect BERT and agent-based learning in a more literal way, by showing how an agent endowed with BERT representations can achieve substantial (zero-shot) transfer from template-based language to noisy natural instructions given by humans with access to the agent's world</p>
-        </div>
-      </div>
+      <a href="https://yoavartzi.com">Yoav Artzi</a>
+      <br />
+      Cornell
     </p>
   </div>
 </div>
 
 
-<div class="card mb-3">
-  <!--
-  <div class="card-header">
-    <a href="https://www.cs.princeton.edu/~karthikn">Karthik Narasimhan</a><span>, Princeton</span>
-  </div>
-  -->
+<div class="card text-center" style="width: 18rem;">
+  <img src="/assets/img/speakers/marc-alexandre.jpg" class="card-img-top text-center" alt="Marc-Alexandre Côté" />
   <div class="card-body">
     <p class="card-text">
-      <div class="row">
-        <div class="col text-center">
-          <img src="/assets/img/speakers/karthik.jpg" class="card-img-top" alt="Karthik Narasimhan" />
-    <a href="https://www.cs.princeton.edu/~karthikn">Karthik Narasimhan</a><span>, Princeton</span>
-        </div>
-        <div class="col-8">
-          <h5>TBD</h5>
-          <p>TBD</p>
-        </div>
-      </div>
+      <a href="https://www.microsoft.com/en-us/research/people/macote">Marc-Alexandre Côté</a>
+      <br />
+      Microsoft Research
     </p>
   </div>
 </div>
 
 
-<div class="card mb-3">
-  <!--
-  <div class="card-header">
-    <a href="https://www.microsoft.com/en-us/research/people/macote">Marc-Alexandre Côté</a><span>, Microsoft Research</span>
-  </div>
-  -->
+<div class="card text-center" style="width: 18rem;">
+  <img src="/assets/img/speakers/karthik.jpg" class="card-img-top text-center" alt="Karthik Narasimhan" />
   <div class="card-body">
     <p class="card-text">
-      <div class="row">
-        <div class="col text-center">
-          <img src="/assets/img/speakers/marc-alexandre.jpg" class="card-img-top" alt="Marc-Alexandre Côté" />
-    <a href="https://www.microsoft.com/en-us/research/people/macote">Marc-Alexandre Côté</a><span>, Microsoft Research</span>
-        </div>
-        <div class="col-8">
-          <h5>TextWorld - A reinforcement learning framework for text-based games</h5>
-          <p>Text-based games are complex, interactive simulations in which text describes the game state and players make progress by entering text commands. They are fertile ground for language-focused machine learning research. In addition to language understanding, successful play requires skills like long-term memory and planning, exploration (trial and error), and common sense. The talk will introduce TextWorld, a sandbox learning environment for the training and evaluation of RL agents on text-based games. Its generative mechanisms give precise control over the difficulty, scope, and language of constructed games, and can be used to study generalization and transfer learning. This talk will also give an overview of the recent attempts to solve text-based games either using reinforcement learning or more handcrafted approaches.</p>
-        </div>
-      </div>
+      <a href="https://www.cs.princeton.edu/~karthikn">Karthik Narasimhan</a>
+      <br />
+      Princeton
     </p>
   </div>
 </div>
 
 
-<div class="card mb-3">
-  <!--
-  <div class="card-header">
-    <a href="https://yoavartzi.com">Yoav Artzi</a><span>, Cornell</span>
-  </div>
-  -->
+<div class="card text-center" style="width: 18rem;">
+  <img src="/assets/img/speakers/angeliki.jpg" class="card-img-top text-center" alt="Angeliki Lazaridou" />
   <div class="card-body">
     <p class="card-text">
-      <div class="row">
-        <div class="col text-center">
-          <img src="/assets/img/speakers/yoav.jpg" class="card-img-top" alt="Yoav Artzi" />
-    <a href="https://yoavartzi.com">Yoav Artzi</a><span>, Cornell</span>
-        </div>
-        <div class="col-8">
-          <h5>Learning to Map Natural Language Instructions to Robot Control</h5>
-          <p>I will discuss the task of executing natural language instructions with a physical robotic agent. In contrast to existing work, we do not engineer formal representations of language meaning or the robot environment. Instead, we learn to directly map raw observations and language to low-level continuous control of a quadcopter drone. We use an interpretable neural network model that mixes learned representations with differentiable geometric operations. For training, we introduce Supervised and Reinforcement Asynchronous Learning (SuReAL), a learning algorithm that utilizes supervised and reinforcement learning processes that constantly interact to learn robust reasoning with limited data. Our learning algorithm uses demonstrations and a plan-following intrinsic reward signal. While we do not require any real-world autonomous flight during learning, our model works effectively both in simulation and the real environment.</p>
-        </div>
-      </div>
+      <a href="http://angelikilazaridou.github.io">Angeliki Lazaridou</a>
+      <br />
+      DeepMind
     </p>
   </div>
 </div>
 
 
-<div class="card mb-3">
-  <!--
-  <div class="card-header">
-    <a href="http://alisongopnik.com">Alison Gopnik</a><span>, Berkeley</span>
-  </div>
-  -->
+<div class="card text-center" style="width: 18rem;">
+  <img src="/assets/img/speakers/arthur.jpeg" class="card-img-top text-center" alt="Arthur Szlam" />
   <div class="card-body">
     <p class="card-text">
-      <div class="row">
-        <div class="col text-center">
-          <img src="/assets/img/speakers/alison.jpg" class="card-img-top" alt="Alison Gopnik" />
-    <a href="http://alisongopnik.com">Alison Gopnik</a><span>, Berkeley</span>
-        </div>
-        <div class="col-8">
-          <h5>Relational Reasoning and Learning in Children and AI</h5>
-          <p>Understanding, learning and reasoning with abstract relations, like same and different or bigger and smaller, is challenging. We show that in an RL like causal learning task, very young children, 18-30 month olds, can learn both same and different relations and the functions becoming bigger and becoming smaller, generalize those relations to brand new and perceptually different objects, and use them to solve novel tasks. We suggest that both abstract causal representations, similar to causal graphical models, and early language may support this knowledge and learning.</p>
-        </div>
-      </div>
+      <a href="https://scholar.google.com/citations?user=u3-FxUgAAAAJ&amp;hl=en">Arthur Szlam</a>
+      <br />
+      FAIR
     </p>
   </div>
 </div>
+
 
 </div>
 
 <h1 id="schedule-est">Schedule (EST)</h1>
 
-<table class="table">
-<tr>
-<td>10:00am to 10:10am</td>
-<td>
-  
-    Welcome Remarks
-  
-  
-
-</td>
-</tr>
-
-
-<tr>
-<td>10:10am to 10:40am</td>
-<td>
-  
-    <a href="http://angelikilazaridou.github.io">Angeliki Lazaridou</a>: 
-  
-  
-    Towards multi-agent emergent communication as a building block of human-centric AI
-  
-
-</td>
-</tr>
-
-
-<tr>
-<td>10:40am to 11:10am</td>
-<td>
-  
-    <a href="https://scholar.google.com/citations?user=u3-FxUgAAAAJ&amp;hl=en">Arthur Szlam</a>: 
-  
-  
-    Language and Interaction in Minecraft
-  
-
-</td>
-</tr>
-
-
-<tr>
-<td>11:10am to 11:30am</td>
-<td>
-  
-    Break
-  
-  
-
-</td>
-</tr>
-
-
-<tr>
-<td>11:30am to 12:15pm</td>
-<td>
-  
-    Poster 1
-  
-  
-
-</td>
-</tr>
-
-
-<tr>
-<td>12:15pm to 1:15pm</td>
-<td>
-  
-    Lunch hour
-  
-  
-
-</td>
-</tr>
-
-
-<tr>
-<td>1:15pm to 1:45pm</td>
-<td>
-  
-    <a href="https://fh295.github.io">Felix Hill</a>: 
-  
-  
-    Embodied Language Learning and the Power of Prediction
-  
-
-</td>
-</tr>
-
-
-<tr>
-<td>1:45pm to 2:15pm</td>
-<td>
-  
-    <a href="https://www.cs.princeton.edu/~karthikn">Karthik Narasimhan</a>: 
-  
-  
-    TBD
-  
-
-</td>
-</tr>
-
-
-<tr>
-<td>2:15pm to 2:45pm</td>
-<td>
-  
-    <a href="https://www.microsoft.com/en-us/research/people/macote">Marc-Alexandre Côté</a>: 
-  
-  
-    TextWorld - A reinforcement learning framework for text-based games
-  
-
-</td>
-</tr>
-
-
-<tr>
-<td>2:45pm to 3:05pm</td>
-<td>
-  
-    Break
-  
-  
-
-</td>
-</tr>
-
-
-<tr>
-<td>3:05pm to 3:50pm</td>
-<td>
-  
-    Poster 2
-  
-  
-
-</td>
-</tr>
-
-
-<tr>
-<td>3:50pm to 4:00pm</td>
-<td>
-  
-    Short Break
-  
-  
-
-</td>
-</tr>
-
-
-<tr>
-<td>4:00pm to 4:30pm</td>
-<td>
-  
-    <a href="https://yoavartzi.com">Yoav Artzi</a>: 
-  
-  
-    Learning to Map Natural Language Instructions to Robot Control
-  
-
-</td>
-</tr>
-
-
-<tr>
-<td>4:30pm to 5:00pm</td>
-<td>
-  
-    <a href="http://alisongopnik.com">Alison Gopnik</a>: 
-  
-  
-    Childhood as a solution to explore-exploit tensions
-  
-
-</td>
-</tr>
-
-
-<tr>
-<td>5:00pm to 5:10pm</td>
-<td>
-  
-    Closing Remarks
-  
-  
-
-</td>
-</tr>
-
+<table>
+  <tbody>
+    <tr>
+      <td>10:00am</td>
+      <td>10:10am</td>
+      <td>Welcome Remarks</td>
+    </tr>
+    <tr>
+      <td>10:10am</td>
+      <td>10:40am</td>
+      <td>Angeliki Lazaridou</td>
+    </tr>
+    <tr>
+      <td>10:40am</td>
+      <td>11:10am</td>
+      <td>Arthur Szlam</td>
+    </tr>
+    <tr>
+      <td>11:10am</td>
+      <td>11:30am</td>
+      <td>Break</td>
+    </tr>
+    <tr>
+      <td>11:30am</td>
+      <td>12:15pm</td>
+      <td>Poster 1</td>
+    </tr>
+    <tr>
+      <td>12:15pm</td>
+      <td>01:15pm</td>
+      <td>Lunch hour</td>
+    </tr>
+    <tr>
+      <td>01:15pm</td>
+      <td>01:45pm</td>
+      <td>Felix Hill</td>
+    </tr>
+    <tr>
+      <td>01:45pm</td>
+      <td>02:15pm</td>
+      <td>Karthik Narasimhan</td>
+    </tr>
+    <tr>
+      <td>02:15pm</td>
+      <td>02:45pm</td>
+      <td>Marc-Alexandre Côté</td>
+    </tr>
+    <tr>
+      <td>02:45pm</td>
+      <td>03:05pm</td>
+      <td>Break</td>
+    </tr>
+    <tr>
+      <td>03:05pm</td>
+      <td>03:50pm</td>
+      <td>Poster 2</td>
+    </tr>
+    <tr>
+      <td>03:50pm</td>
+      <td>04:00pm</td>
+      <td>Short Break</td>
+    </tr>
+    <tr>
+      <td>04:00pm</td>
+      <td>04:30pm</td>
+      <td>Yoav Artzi</td>
+    </tr>
+    <tr>
+      <td>04:30pm</td>
+      <td>05:00pm</td>
+      <td>Alison Gopnik</td>
+    </tr>
+    <tr>
+      <td>05:00pm</td>
+      <td>05:10pm</td>
+      <td>Closing Remarks</td>
+    </tr>
+  </tbody>
 </table>
 
   
