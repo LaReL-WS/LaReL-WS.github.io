@@ -40,8 +40,8 @@ permalink: /program/
   url="https://www.cs.princeton.edu/~karthikn"
   affiliation="Princeton"
   img="/assets/img/speakers/karthik.jpg"
-  title="TBD"
-  abstract="TBD"
+  title="Using natural language to scale up reinforcement learning"
+  abstract="In recent years, reinforcement learning (RL) has been used with considerable success in games and robotics as well as language understanding applications like dialog systems. However, the question of what language can provide for RL remains relatively under-explored. In this talk, I make the case that leveraging language will be essential to developing general-purpose interactive agents that can perform more than a single task and operate in scenarios beyond the ones they are trained on. Natural language allows us to incorporate more semantic structure into the RL framework while also making it easier to obtain guidance from humans. Specifically, I will show how several parts of the traditional RL setup (e.g. transitions, rewards, actions, goals) can be expressed in language to build agents that can handle combinatorially large spaces as well as generalize to unseen subspaces in each of these aspects."
 %}
 
 {% include person.html start="2:15pm" end="2:45pm"
@@ -114,7 +114,7 @@ permalink: /program/
   url="https://www.cs.princeton.edu/~karthikn"
   affiliation="Princeton"
   img="/assets/img/speakers/karthik.jpg"
-  title="TBD"
+  title="Using natural language to scale up reinforcement learning"
 %}
 
 {% include event.html start="2:15pm" end="2:45pm"
