@@ -6,7 +6,7 @@ layout: page
 
 ### ICML 2020 Workshop, 18 July 2020
 
-### _The workshop will take place virtually due to COVID-19 pandemic._ 
+### _The workshop will take place virtually due to COVID-19 pandemic. There is no workshop specific registration, you will be able to attend LaReL by registering for ICML._
 
 <figure class="figure mw-50 text-center">
   <img src="/assets/img/machinereading.jpg" class="figure-img img-fluid rounded" alt="Machine reading.">
