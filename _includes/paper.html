@@ -1,0 +1,29 @@
+<div class="card mb-3">
+  <div class="card-header">
+    <a href="https://openreview.net/forum?id={{include.review}}">{{include.title}}</a>
+  </div>
+  <div class="card-body">
+    <p class="card-text">
+      <p>Authors: {{include.authors}}</p>
+      <p>
+        <a class="btn btn-primary" href="https://openreview.net/forum?id={{include.review}}" role="button">
+          Paper
+        </a>
+        <a class="btn btn-primary" data-toggle="collapse" href="#collapseVideo-{{include.video}}" role="button" aria-expanded="false" aria-controls="collapseVideo-{{include.video}}">
+          Video
+        </a>
+        <!--
+        <a class="btn btn-primary" href="https://openreview.net/forum?id={{include.review}}" role="button">
+          Slides
+        </a>
+        -->
+      </p>
+
+      <div class="embed-responsive embed-responsive-16by9 collapse" id="collapseVideo-{{include.video}}">
+        <p>
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{include.video}}" allowfullscreen></iframe>
+        </p>
+      </div>
+    </p>
+  </div>
+</div>
