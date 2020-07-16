@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Papers
-permalink: /papers/
+title: Accepted Papers
+permalink: /accepted-papers/
 ---
 
 
