@@ -6,7 +6,12 @@
     <p class="card-text">
       <p>Authors: {{include.authors}}</p>
       <p>
+        <!--
         <a class="btn btn-primary" href="https://openreview.net/forum?id={{include.review}}" role="button">
+          OpenReview
+        </a>
+        -->
+        <a class="btn btn-primary" href="/assets/pdfs/{{include.paper}}" role="button">
           Paper
         </a>
         <a class="btn btn-primary" data-toggle="collapse" href="#collapseVideo-{{include.video}}" role="button" aria-expanded="false" aria-controls="collapseVideo-{{include.video}}">
