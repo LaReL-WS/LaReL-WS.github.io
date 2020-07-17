@@ -7,6 +7,12 @@ permalink: /accepted-papers/
 
 # Accepted Papers
 
+
+The invited talks will be streamed on LaReL's Zoom session.
+The poster sessions will be hosted in LaReL's Gather Town.
+The Zoom and Gather Town links are shared in the ICML RocketChat, which is accessible on [the ICML 2020 LaReL page](https://icml.cc/virtual/2020/workshop/5748).
+
+
 {% include paper.html
   title="PixL2R: Guiding Reinforcement Learning using Natural Language by Mapping Pixels to Rewards"
   authors="Prasoon Goyal, Scott Niekum, Ray Mooney"
